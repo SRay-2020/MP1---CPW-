@@ -16,6 +16,17 @@ font-family: "Castoro", sans-serif;
 
 /*-----Navigation----*/
 
+.logo-img {
+
+height: 25%;
+width: 25%;
+float: left;
+margin: auto;
+
+
+
+}
+
 
 #navbarNav ul li a {
 
@@ -35,6 +46,21 @@ background-color:  #295232;
 text-align: right;
 
 }
+
+.navbar-toggler {
+
+float: left;
+margin-right: 0;
+margin-left: 70%;
+position: absolute;
+
+}
+
+.navbar-toggler-icon {
+
+float: left;
+}
+
 
 .navbar-nav {
 
@@ -76,7 +102,7 @@ font-weight: 600;
 
 .bg-color-own {
 
-background-color: #c5c19f;
+background-color: #b39b69;
 }
 
 
@@ -102,6 +128,21 @@ padding-top: 1rem;
 padding-bottom: 2rem;
 
 }
+
+
+.cont-about
+
+{
+background-color: #b39b69;
+}
+
+.card {
+background-color: #b39b69;
+border: none;
+}
+
+
+
 
 
 /*----Footer---*/
@@ -138,3 +179,15 @@ footer {
   background: #e84610;
 }
 
+#body {
+
+height:100vh;
+}
+
+#main{
+  border:solid;
+  height:100vh;
+}
+#footer{
+  border:solid;
+}
