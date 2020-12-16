@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 
+/*---Global Settings---*/
+
 * {
 
 padding: 0;
 margin: 0;
 font-size: 20px;
 text-decoration: none;
-color: black;
+color: #141009;
 text-align: center;
 font-family: "Castoro", sans-serif;
 
@@ -29,7 +31,7 @@ text-align: right!important;
 
 .nav-container {
 
-background-color: rgb(81, 167, 124);
+background-color:  #295232;
 text-align: right;
 
 }
@@ -71,29 +73,68 @@ font-weight: 600;
 
 /*-----Section 1 About Us----*/
 
-.cont-about {
 
+.bg-color-own {
 
-
-
-    
+background-color: #c5c19f;
 }
 
 
+/*-----Stack overflow code- card same size ref---*/
+.card-img {
+width: 100%;
+height: 18rem;
+object-fit: cover;
+}
 
 
-/*-----Section 2 Workshop----*/
+/*-----img cards----*/
 
-.cont-workshop {
+.card-img-center 
+
+{
+
+width: 100%;
+height: 18rem;
+object-fit: cover;
+text-align: center;
+padding-top: 1rem;
+padding-bottom: 2rem;
 
 }
 
-/*-----Section 3 Our Ethos----*/
 
-.cont-ethos {
+/*----Footer---*/
 
-
-
-
-
+footer {
+  background-color: #295232;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+  padding-top: 1rem;
 }
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #e84610;
+}
+
