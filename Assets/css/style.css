@@ -6,7 +6,7 @@
 
 padding: 0;
 margin: 0;
-font-size: 20px;
+font-size: 15px;
 text-decoration: none;
 color: #0c0a06;
 text-align: center;
@@ -27,7 +27,7 @@ margin: auto;
 
 #navbarNav ul li a {
 
-font-size: 1.5rem;
+font-size: 3rem;
 }
 
 #navbarNav ul {
@@ -37,7 +37,7 @@ text-align: right;
 
 .nav-container {
 
-background-color:  #295232;
+background-color:  #3C5738;
 text-align: right;
 
 }
@@ -45,13 +45,15 @@ text-align: right;
 .navbar-toggler {
 
 float: left;
-margin-right: 0;
+margin-right: 5%;
 margin-left: 70%;
 position: absolute;
 }
 
 .navbar-toggler-icon {
 float: left;
+height: 2rem;
+width: 2rem;
 }
 
 
@@ -60,7 +62,7 @@ float: left;
 /*Stack Overflow citation---*/
 
 .carousel .carousel-item {
-  height: 500px;
+  height: 30rem;
 }
 
 .carousel-item img {
@@ -68,12 +70,12 @@ float: left;
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 500px;
+    min-height: 30rem;
 }
 
 .carousel-caption h1{
 
-font-size: 2rem;    
+font-size: 2.5rem;    
 font-weight: 600;
 
 }
@@ -83,16 +85,16 @@ font-weight: 600;
 
 .bg-color-own {
 
-background-color: #b39b69;
+background-color: #D4C473;
 }
 
 
 /*-----Stack overflow code- card same size ref---*/
 .card-img {
-width: 100%;
-height: 18rem;
+width: 60rem;
+height: 40rem;
 object-fit: cover;
-padding-left: 5rem;
+padding-left: 15rem;
 }
 
 
@@ -101,13 +103,13 @@ padding-left: 5rem;
 .card-img-center 
 
 {
-width: 100%;
+width: 20rem;
 height: 18rem;
 object-fit: cover;
 text-align: center;
 padding-top: 1rem;
-padding-bottom: 2rem;
-padding-left: 0;
+padding-bottom: 1.5rem;
+padding-left: 1.5rem;
 padding-right: 0;
 }
 
@@ -115,13 +117,31 @@ padding-right: 0;
 .cont-about
 
 {
-background-color: #b39b69;
+background-color: #D4C473;
+font-size: 20rem;
 }
 
 .card {
-background-color: #b39b69;
-border: none;
+background-color: #D4C473;
+border: 2rem;
 padding: 0;
+padding-left: 1.25rem;
+text-align: center;
+height: 125%;
+width: 40rem;
+}
+
+.card-title {
+
+font-size: 1.75rem;
+text-decoration: underline;
+}
+
+
+.card-text {
+
+font-size: 1rem;
+text-align: center;
 }
 
 
@@ -131,9 +151,9 @@ padding: 0;
 
 
 footer {
-  background-color: #295232;
-  color: #fafafa;
-  min-height: 120px;
+  background-color: #3C5738;
+  color: #FFFBDB;
+  min-height: 12rem;
   margin: 0;
   padding-top: 1rem;
   position: absolute;
@@ -142,25 +162,25 @@ footer {
 .tm-text {
 
 text-align: center;
-font-size: .75rem;
+font-size: 1rem;
 padding-left: none;
 
 }
 
 .social-links {
-  padding-bottom: 15px;
+  padding-bottom: .75rem;
 }
 
 .social-links li a i {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
+  width: 3rem;
+  height: 3rem;
+  padding: .5rem 0;
   border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
+  font-size: 1rem;
+  line-height: 2rem;
   text-align: center;
   color: #fafafa;
-  background: #8f8f8f;
+  background: #AD9BAA;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -168,7 +188,7 @@ padding-left: none;
 }
 
 .social-links li a i:hover {
-  background: #e84610;
+  background: #54577C;
 }
 
 /*----Global overrides---*/
