@@ -92,24 +92,19 @@ background-color: #D4C473;
 /*-----Stack overflow code- card same size ref---*/
 .card-img {
 width: 60rem;
-height: 40rem;
-object-fit: cover;
-padding-left: 15rem;
 }
 
 
 /*-----img cards----*/
 
 .card-img-center 
-
 {
-width: 20rem;
-height: 18rem;
+width: 60rem;
 object-fit: cover;
 text-align: center;
 padding-top: 0rem;
 padding-bottom: 0rem;
-padding-left: 1.5rem;
+padding-left: 0rem;
 padding-right: 0;
 }
 
@@ -179,7 +174,17 @@ footer {
   margin: 0;
   padding-top: 1rem;
   position: absolute;
+  padding-bottom: 0 auto;
 }
+
+.tm-div {
+
+padding-top: 3rem;
+
+
+
+}
+
 
 .tm-text {
 
