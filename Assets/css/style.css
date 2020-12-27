@@ -23,8 +23,6 @@ display: block;
 
 height: 20%;
 width: 20%;
-float: left;
-margin: auto;
 }
 
 
@@ -45,19 +43,30 @@ text-align: right;
 
 }
 
+.navbar-style {
+
+background-color:  #3C5738;
+text-align: right;
+}
+
+
 .navbar-toggler {
 
-float: left;
-margin-right: 5%;
-margin-left: 70%;
-position: absolute;
+color: #fafafa;
+
+
 }
 
-.navbar-toggler-icon {
-float: left;
-height: 2rem;
-width: 2rem;
+
+/* Colours */
+
+.page-background {
+
+background-color:  #3C5738;
+
+
 }
+
 
 
 /*-----Carousel----*/
@@ -68,9 +77,11 @@ width: 2rem;
 
 margin: 0;
 border: 0;
+}
 
-
-
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
 }
 
 .carousel .carousel-item {
@@ -107,14 +118,17 @@ font-size: 5rem;
 width: 25rem;
 max-width: 100%;
 max-height: 100%;
+margin-left: 4rem;
+border-style: solid;
+border-color: #0c0a06;
 }
 
 
 /*-----Img cards----*/
 
 .card-img-center 
+
 {
-width: 25rem;
 object-fit: cover;
 text-align: center;
 padding-top: 0rem;
@@ -135,11 +149,10 @@ font-size: 5rem;
 .card {
 
 
-border: 2rem;
+border: 5rem;
 padding: 0;
-padding-left: 1.25rem;
 text-align: center;
-height: 125%;
+
 
 }
 
@@ -183,10 +196,8 @@ margin: 0;
 footer {
   background-color: #3C5738;
   color: #FFFBDB;
-  min-height: 10rem;
+  min-height: 6rem;
   margin: 0;
-  padding-top: 1rem;
-  position: absolute;
   padding-bottom: 0;
   left: 0;
   right: 0;
@@ -270,9 +281,15 @@ font-size: 18px;
 }
 
 
+.card-left {
+    
+    padding-left: 2rem;
+}
 
-.card {
-    margin: 20px 10px;
+
+.card-text {
+    
+    padding-left: 2rem;
 }
 
 .card-body {
@@ -299,13 +316,15 @@ nav {
   background-color: white;
 }
 .navbar-brand img {
-  max-height: 50px;
+    min-height: 5rem;
+  max-height: 5rem;
 }
 .navbar-brand {
-  font-size: 24px;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: 900;
   color: #683aa4;
+
 }
 nav ul li a {
   color: #a9a9a9;
@@ -321,3 +340,20 @@ font-weight: 600;
 text-decoration: none;
 
 }
+
+.navbar-toggler {
+
+border:1px solid!important;
+}
+
+.navbar-toggler-icon {
+
+color: #fafafa;
+}
+
+.navbar {
+
+padding:2rem 2rem;
+}
+
+
