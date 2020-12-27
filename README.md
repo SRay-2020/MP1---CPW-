@@ -10,41 +10,41 @@
 
 * **STRATEGY** 
 
-* BUSINESS GOALS 
+* **BUSINESS GOALS** 
 
-* USER STORIES 
+* **USER STORIES** 
 
-* OWNER STORIES 
+* **OWNER STORIES** 
 
-* SCOPE 
+* **SCOPE** 
 
-* SCTRUCTURE 
+* **SCTRUCTURE** 
 
-* SKELETON 
+* **SKELETON** 
 
-* SURFACE 
+* **SURFACE** 
 
-* FEATURES 
+* **FEATURES** 
 
-* FUTURE FEATURES 
+* **FUTURE FEATURES** 
 
-* TECNOLOGIES USED 
+* **TECNOLOGIES USED** 
 
-* TESTING (BUG FIXS) 
+* **TESTING (BUG FIXS)** 
 
-* DEPLOYMENT 
+* **DEPLOYMENT** 
 
-* CREDITS 
+* **CREDITS** 
 
-* MOCKUPS 
+* **MOCKUPS** 
 
-**###Strategy -**
+### **Strategy -**
 
 #### Business Goals:  
 
 The main goal of this project is to create a static website for a business which has operated in traditional trading methods (high street) and has been forced to migrate its business to the online sphere to remain economically viable during the current COVID-19 pandemic.  It aims to maintain the services which it has previously provided in a way which is informative and accessible to its target audience/customer base. Furthermore, it will attempt to create a space which is conducive to communication and engagement, where those in the art community can still feel a sense of inclusivity and interconnection. 
 
-Target audience:  
+*Target audience:*  
 
 -Those within pottery community 
 
@@ -54,9 +54,9 @@ Target audience:
 
  
 
-**###User stories:**
+**User stories:**
 
-Website - 
+*Website user -* 
 
 1.As a user I want a positive experience interacting with the website to ensure I return 
 
@@ -64,7 +64,7 @@ Website -
 
 3.As a user I want to be able to view the website on any device and have a consistent experi3.ence between different media sizes 
 
-Potter/Student -  
+*Potter/Student -*  
 
 4.As a user I want to learn more about the existing pottery community in Dublin/Ireland 
 
@@ -72,7 +72,7 @@ Potter/Student -
 
 6.As a user I want to be able to contact the owners to further discuss ideas and participation in workshops 
 
-Customer -  
+*Customer -*  
 
 7.As a user I want to be able to learn about available products and services, the organisation who provides them and the methods that are utilised in their creation 
 
@@ -82,7 +82,7 @@ Customer -
 
 10.As a user I want to be confident that there is good communication between myself and the producer/artist.  
 
-Art community -  
+*Art community -*  
 
  11.As a user I want to be able to contact the artists to discuss their work – whether for showing in galleries or selling in other outlets 
 
@@ -90,7 +90,7 @@ Art community -
 
 13.As a user I want to be able to contact the business owners to see if they would be interested in displaying my work for sale or for me to teach on one of their workshops.  
 
-### Business Owner -  
+*Business Owner -*  
 
 1.As a business owner I want to educate and inform the general public about my business and the services and products I provide 
 
