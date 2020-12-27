@@ -7,17 +7,17 @@
     <title>CPW Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/cdf97e27ed.js" crossorigin="anonymous"></script>
+   
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css" title="Default Styles" media="screen">
 </head>
 
 <body>
     <header>
-        <!----Navbar-->
-        <!----Bootstrap Navbar-->
+        <!--Navbar-->
+        <!--Bootstrap Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark  ml-auto nav-container">
             <div class="container-fluid">
-                <a class="navbar-brand" media="img" href="index.html"><img class="logo-img" src="Assets/images/TRIQUETRA CPW LOGO.png"
+                <a class="navbar-brand" target="img" href="index.html"><img class="logo-img" src="Assets/images/cpwlogo.png"
                         alt="Celtic traingle symbol with letters CPW inset"></a>
                 <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -25,11 +25,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!------Nav Menu-->
+                <!--Nav Menu-->
 
                 <div class="collapse navbar-collapse ml-auto" id="navbarNav">
 
-                    <!---Nav List-->
+                    <!--Nav List-->
 
                     <ul class="navbar-nav ml-auto navbar-right">
                         <li class="nav-item">
@@ -39,7 +39,7 @@
                             <a class="nav-link active" aria-current="page" href="storepage.html">Store</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="classespage.html">Classes</a>
+                            <a class="nav-link" href="classpage.html">Classes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active " aria-current="page" href="contactpage.html">Contact Us</a>
@@ -51,10 +51,10 @@
         </nav>
 
     </header>
-    <!----Carousel Hero-->
+    <!--Carousel Hero-->
 
 
-    <!----Bootstrap carousel-->
+    <!--Bootstrap carousel-->
     <section>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
@@ -98,15 +98,67 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
+
+      <section class="container-fluid">
+      <div class="row bg-color-contact">
+        <div class="col">
+          <h3 class="contact-heading uppercase text-center">
+            Contact us
+          </h3>
+          <h5 class="uppercase text-center">We look forward to hearing from you</h5>
+
+          <div class="center-form">
+
+            <form>
+              <input
+                type="text"
+                name="name"
+                id="fullname"
+                class="form-control"
+                placeholder="Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                rows="5"
+                name="projectsummary"
+                id="projectsummary"
+                placeholder="Inquiry description"
+                class="form-control"
+                required
+              ></textarea>
+
+              <div class="form-row text-center">
+                <div class="col">
+                  <button type="submit" class="btn btn-secondary">
+                    Send Inquiry Request
+                  </button>
+                </div>
+              </div>
+            </form>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
 
     
 
 
-    <!----Footer-->
+    <!--Footer-->
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <!----Social Media links-->
+            <!--Social Media links-->
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
@@ -141,14 +193,12 @@
                 </ul>
             </div>
         </div>
-        <!---Spacing-->
+        <!--Spacing-->
         <div class="col-sm-4">
-            <h5 class="uppercase general-sub"></h5>
-            <p class="inline-block">
-            </p>
+            <br>
         </div>
 
-        <!----Trademark text-->
+        <!--Trademark text-->
         <div class="col-sm-4 ml-auto">
 
 

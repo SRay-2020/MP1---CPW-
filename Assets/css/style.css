@@ -1,3 +1,5 @@
+/* Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 
 /*---Global Settings---*/
@@ -11,6 +13,7 @@ text-decoration: none;
 color: #0c0a06;
 text-align: center;
 font-family: "Castoro", sans-serif;
+display: block;
 
 }
 
@@ -27,7 +30,7 @@ margin: auto;
 
 #navbarNav ul li a {
 
-font-size: 3rem;
+font-size: 1.25rem;
 }
 
 #navbarNav ul {
@@ -61,6 +64,15 @@ width: 2rem;
 
 /*Stack Overflow citation---*/
 
+.container-size {
+
+margin: 0;
+border: 0;
+
+
+
+}
+
 .carousel .carousel-item {
   height: 30rem;
 }
@@ -85,22 +97,24 @@ font-weight: 600;
 
 .bg-color-own {
 
+font-size: 5rem;    
+
 }
 
 
 /*-----Stack overflow code- card same size ref---*/
 .card-img {
-width: 60rem;
+width: 25rem;
 max-width: 100%;
 max-height: 100%;
 }
 
 
-/*-----img cards----*/
+/*-----Img cards----*/
 
 .card-img-center 
 {
-width: 60rem;
+width: 25rem;
 object-fit: cover;
 text-align: center;
 padding-top: 0rem;
@@ -114,6 +128,7 @@ padding-right: 0;
 
 {
 
+font-size: 5rem;
 
 }
 
@@ -125,7 +140,7 @@ padding: 0;
 padding-left: 1.25rem;
 text-align: center;
 height: 125%;
-width: 40rem;
+
 }
 
 .card-title {
@@ -172,7 +187,7 @@ footer {
   margin: 0;
   padding-top: 1rem;
   position: absolute;
-  padding-bottom: 0 0;
+  padding-bottom: 0;
   left: 0;
   right: 0;
 }
@@ -186,7 +201,7 @@ padding-top: 3rem;
 
 text-align: center;
 font-size: 1rem;
-padding-left: none;
+padding-left: 0;
 
 }
 
@@ -239,8 +254,8 @@ height:100vh;
 #Classes-bod h1 {
 
 font-weight: 900;
-font-size: 12rem;
-padding-bottom: 5px;
+font-size: 2rem;
+padding-bottom: 1.5rem;
 }
 
 .title {
@@ -254,10 +269,7 @@ padding-bottom: 5px;
 font-size: 18px;
 }
 
-.card-body {
 
-    box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.1);
-}
 
 .card {
     margin: 20px 10px;
@@ -269,18 +281,43 @@ text-decoration: none;
 font-size: 15px;
 margin-top: auto;
 font-weight: 600;
+box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.1);
+
 }
 
 /*-----Store Page styles-----*/
 
+
+
+
 .store-card {
 
 --bs-gutter-x: 0;
-
 }
 
+nav {
+  background-color: white;
+}
+.navbar-brand img {
+  max-height: 50px;
+}
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4;
+}
+nav ul li a {
+  color: #a9a9a9;
+  font-size: 22px;
+  margin: auto 10px;
+}
 
-.container {
-padding:0!important;
-margin:0!important;
+/* Store page */
+
+.contact-style {
+
+font-weight: 600;
+text-decoration: none;
+
 }
