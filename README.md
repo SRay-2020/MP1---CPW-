@@ -1,46 +1,46 @@
-#MILESTONE PROJECT 1 - CELTIC POTTERY WORKSHOP (static website) 
+# MILESTONE PROJECT 1 - CELTIC POTTERY WORKSHOP (static website) 
 
 
-##Project Summary 
+## Project Summary 
 
-###This website has been designed and created to showcase the work and services of ‘Celtic Pottery Workshop’, a traditional pottery company, who would like to migrate their business online.  The website was built utilising a mobile first design process and has been made to ensure that it is fully responsive across all range of media devices.  
+### This website has been designed and created to showcase the work and services of ‘Celtic Pottery Workshop’, a traditional pottery company, who would like to migrate their business online.  The website was built utilising a mobile first design process and has been made to ensure that it is fully responsive across all range of media devices.  
 
-####Contents -  
+#### Contents -  
 
 
 ***STRATEGY** 
 
-*BUSINESS GOALS 
+* BUSINESS GOALS 
 
-*USER STORIES 
+* USER STORIES 
 
-*OWNER STORIES 
+* OWNER STORIES 
 
-*SCOPE 
+* SCOPE 
 
-*SCTRUCTURE 
+* SCTRUCTURE 
 
-*SKELETON 
+* SKELETON 
 
-*SURFACE 
+* SURFACE 
 
-*FEATURES 
+* FEATURES 
 
-*FUTURE FEATURES 
+* FUTURE FEATURES 
 
-*TECNOLOGIES USED 
+* TECNOLOGIES USED 
 
-*TESTING (BUG FIXS) 
+* TESTING (BUG FIXS) 
 
-*DEPLOYMENT 
+* DEPLOYMENT 
 
-*CREDITS 
+* CREDITS 
 
-*MOCKUPS 
+* MOCKUPS 
 
 **###Strategy -**
 
-####Business Goals:  
+#### Business Goals:  
 
 The main goal of this project is to create a static website for a business which has operated in traditional trading methods (high street) and has been forced to migrate its business to the online sphere to remain economically viable during the current COVID-19 pandemic.  It aims to maintain the services which it has previously provided in a way which is informative and accessible to its target audience/customer base. Furthermore, it will attempt to create a space which is conducive to communication and engagement, where those in the art community can still feel a sense of inclusivity and interconnection. 
 
@@ -90,7 +90,7 @@ Art community -
 
 13.As a user I want to be able to contact the business owners to see if they would be interested in displaying my work for sale or for me to teach on one of their workshops.  
 
-###Business Owner -  
+### Business Owner -  
 
 1.As a business owner I want to educate and inform the general public about my business and the services and products I provide 
 
@@ -108,35 +108,37 @@ Art community -
 
 8.As a business owner I want to I want to contribute to the community of potters and artists in a helpful way, which promotes the profession to new artists and students 
 
-###**Scope -** 
+### **Scope -** 
 
 This project will be a Minimal Viable Product containing the most important core content that is required.  
 
 
-####Functional specifications -  
+#### Functional specifications -  
 
-*Navigation 
+* Navigation 
 
-*Display of work 
+* Display of work 
 
-*Contact 
+* Contact 
 
-*Social media links 
+* Social media links 
 
-####Content specifications -  
+#### Content specifications -  
 
-*Information about the business (incl methods and ethos) 
+* Information about the business (incl methods and ethos) 
 
-*Engaging visuals  
+* Engaging visuals  
 
-*Product listings 
+* Product listings 
 
-*Classes/Workshop listings 
+* Classes/Workshop listings 
 
 
 **SCTRUCTURE** 
 
 **SKELETON** 
+
+
 
 **SURFACE** 
 
