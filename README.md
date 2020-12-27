@@ -8,7 +8,7 @@
 #### Contents -  
 
 
-***STRATEGY** 
+* **STRATEGY** 
 
 * BUSINESS GOALS 
 
