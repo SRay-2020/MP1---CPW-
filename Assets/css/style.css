@@ -105,6 +105,35 @@ font-weight: 600;
 
 /*-----Section 1 About Us----*/
 
+.about-us {
+
+padding-left: 6.25rem;   
+
+
+}
+
+.workshop 
+{
+
+
+padding-left: 6.25rem;   
+
+}
+
+
+.ethos {
+
+padding-left: 6.25rem;  
+padding-top: 2rem;
+
+}
+
+
+
+
+
+
+
 
 .bg-color-own {
 
@@ -152,7 +181,7 @@ font-size: 5rem;
 border: 5rem;
 padding: 0;
 text-align: center;
-
+box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -283,22 +312,26 @@ font-size: 18px;
 
 .card-left {
     
-    padding-left: 2rem;
+        background-color: #FFFBDB;
+    padding-left:0;
+    text-align: center;
+    padding-right: 1rem;
+    padding-top: 2rem;
 }
 
 
 .card-text {
     
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .card-body {
 
+background-color: #FFFBDB;    
 text-decoration: none;
 font-size: 15px;
 margin-top: auto;
 font-weight: 600;
-box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -359,7 +392,7 @@ padding:2rem 2rem;
 
 .page-background {
 
-background-color: #0c0a06;
+ background-color: #3C5738;
 
 }
 
@@ -375,5 +408,32 @@ padding: 0 0;
 .footer-style {
 
 margin-top: 2rem;
+
+}
+
+
+.store-row-style {
+
+padding-bottom: 2rem;
+
+}
+
+
+
+/* Store row styles */
+
+
+
+.item-3 {
+padding-bottom: 0;
+}
+
+/* Classes row styles */
+
+
+.class-style {
+
+padding-bottom: 2rem;
+
 
 }
