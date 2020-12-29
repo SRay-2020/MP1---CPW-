@@ -50,12 +50,20 @@ text-align: right;
 }
 
 
-.navbar-toggler {
-
-color: #fafafa;
-
+.navbar-toggler .navbar-toggler-icon 
+{
+background-color: #fafafa;
 
 }
+
+.navbar-toggler {
+
+background-color: transparent;
+background-image: none;
+border: 1px solid transparent;
+}
+
+
 
 
 /* Colours */
@@ -189,8 +197,10 @@ box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.1);
 
 .card-title {
 
-font-size: 1.75rem;
+font-size: 1.5rem;
 text-decoration: underline;
+padding-top: .5rem;
+
 }
 
 
@@ -205,19 +215,51 @@ text-align: center;
 margin: 0 auto;
 border: 0;
 padding: 0;
-
-
-
 }
 
 .row-brk {
 
 padding: 0;
 margin: 0;
+}
 
+
+.card-button {
+
+border-radius: 2rem;
+color: #fff;
+background-color: #54577C;
+border-color: #6c757d;
+width: 14rem;
+height: 3rem;
+justify-content: center;
+padding-left: 1rem;
+padding-bottom: 2rem;
+margin-left: 5rem;
+margin-bottom: 1rem;
+}
+
+
+
+/* Contact Page styles */
+
+.btn-space {
+
+padding-top: 1rem;
+
+}
+
+.form-row >.col {
+
+
+padding-top: .5rem;
 
 
 }
+
+
+
+
 
 /*----Footer---*/
 
@@ -267,9 +309,22 @@ padding-left: 0;
   -o-transition: all 0.35s ease-in-out;
 }
 
+.social-links li {
+
+padding-right: 2rem;
+
+}
+
+
 .social-links li a i:hover {
   background: #54577C;
 }
+
+
+
+
+
+
 
 /*----Global overrides---*/
 
@@ -326,6 +381,7 @@ font-size: 18px;
 .card-text {
     
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .card-body {
@@ -413,7 +469,13 @@ padding: 0 0;
 
 .footer-style {
 
-margin-top: 2rem;
+margin-top: 1rem;
+
+}
+
+.footer-style h5 {
+
+padding-bottom: .5rem;
 
 }
 
