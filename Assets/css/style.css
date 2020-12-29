@@ -565,9 +565,10 @@ padding-top: 1rem;
 
 /* Media Quries */
 
-/* About Page */
+@media (min-width: 375px){
 
-@media (min-width: 402px){
+
+/* About Page */
 
 .card {
 
@@ -604,12 +605,82 @@ margin-left: 5.5rem;
 width: 68%;
 }
 
+/* Store Page */
+
+.card-button {
+
+margin-left: 4.5rem;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 402px){
+
+
+/* About Page */
+
+.card {
+
+box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
+
+}
+
+.card-text2
+{
+display: none;
+}
+
+.card-img {
+margin-left: 4.75rem; 
+border-radius: .2rem;
+background-color:#3C5738;
+margin-top: 0rem;
+width: 68%;
+
+}
+
+
+.card-left {
+
+margin-left: 4.75rem;
+border-radius: 0rem;
+width: 68%;
+}
+
+#Classes-bod {
+
+width: 22rem;
+margin-left: 5.5rem;
+width: 68%;
+}
+
+/* Store Page */
+
+.card-button {
+
+margin-left: 9.5rem;
+justify-content: center;
+}
 
 }
 
 
 
 @media (min-width: 552px){
+
+/* About Page */    
 
 .card {
 
@@ -644,6 +715,12 @@ width: 22rem;
 margin-left: 6rem;
 }
 
+/* Store Page */
+
+.card-button {
+
+margin-left: 10.5rem;
+}
 
 
 
@@ -651,6 +728,9 @@ margin-left: 6rem;
 }
 
 @media (min-width: 574px){
+
+
+/* About Page */
 
 .card {
 
@@ -685,12 +765,23 @@ width: 26rem;
 margin-left: 4rem;
 }
 
+
+/* Store Page */
+
+.card-button {
+
+margin-left: 9.5rem;
+}
+
 }
 
 
 
 
 @media (min-width: 768px){
+
+/* About Page */
+
 
 .card-text2
 {
@@ -719,12 +810,19 @@ margin-left: 8rem;
 }
 
 
+/* Store Page */
+
+.card-button {
+
+margin-left: .01rem;
+}
 
 
 }
 
 @media (min-width: 992px) {
 
+/* About Page */
 .card-text2 {
 
 display: contents;
@@ -750,12 +848,19 @@ width: 50rem;
 margin-left: 6rem;
 }
 
+/* Store Page */
+
+.card-button {
+
+margin-left: 2.75rem;
+}
 
     
 }
 
 @media (min-width: 1200px) {
 
+/* About Page */
     
 .card-img {
 margin-left: 4.5rem; 
@@ -775,5 +880,22 @@ border-radius: .2rem;
 width: 56rem;
 margin-left: 9rem;
 }
+
+/* Store Page */
+
+.card-button {
+
+margin-left: 4.5rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 }
