@@ -5,10 +5,9 @@
 /*---Global Settings---*/
 
 * {
-overflow:hidden;
+
 padding: 0;
 margin: 0;
-padding-top: -2rem;
 font-size: 15px;
 text-decoration: none;
 color: #0c0a06;
@@ -49,7 +48,7 @@ text-align: right;
 
 .navbar-style {
 
-background-color:  #3C5738;
+background-color: #3C5738;
 text-align: right;
 }
 
