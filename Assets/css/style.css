@@ -5,9 +5,10 @@
 /*---Global Settings---*/
 
 * {
-
+overflow:hidden;
 padding: 0;
 margin: 0;
+padding-top: -2rem;
 font-size: 15px;
 text-decoration: none;
 color: #0c0a06;
@@ -456,16 +457,13 @@ text-transform: uppercase;
 
 /*-----Store Page styles-----*/
 
-
-
-
 .store-card {
 
 --bs-gutter-x: 0;
 border-radius: 1.5rem;
-
-
 }
+
+
 
 nav {
   background-color: white;
@@ -478,14 +476,20 @@ nav {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 900;
-  color: #683aa4;
+  color: #00f7ff;
 
 }
 nav ul li a {
-  color: #a9a9a9;
-  font-size: 22px;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
   margin: auto 10px;
 }
+
+
+.nav ul li a:hover {
+    color:rgba(216, 169, 81, );
+}
+
 
 /* Store page */
 
@@ -888,14 +892,53 @@ margin-left: 9rem;
 margin-left: 4.5rem;
 }
 
+/* Header Styles */
+}
+
+.header-links li a {
+color: rgb(255, 255, 255);
+background: #3C5738;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  border-radius: .5rem;
+}
 
 
 
 
+.header-links li a:hover {
+    color: #d4c473;
+  background:rgb(44, 63, 41);
+}
+
+/* Interactive Button Styles */
+
+
+.card-body a {
+    text-decoration: none;
+    font-weight: 500;
+color: rgb(255, 255, 255);
+background: #54577C;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  border-radius: .5rem;
+}
 
 
 
 
+.card-body a:hover {
+    color: #d4c473;
+  background:rgb(59, 61, 87);
+}
 
+
+title {
+
+    margin-top: -2rem;
 
 }
