@@ -159,8 +159,28 @@ max-height: 100%;
 margin-left: 0rem;
 border-style: solid;
 border-color: #0c0a06;
-border-radius: 1.5rem;
+border-radius: 0rem;
+
+
+
+
+
+
+
+
+
 }
+
+.body {
+
+@media screen {
+    
+}
+
+}
+
+
+
 
 
 /*-----Img cards----*/
@@ -174,7 +194,7 @@ padding-top: 0rem;
 padding-bottom: 0rem;
 padding-left: 0rem;
 padding-right: 0;
-border-radius: 1.5rem;
+border-radius: 0rem;
 }
 
 
@@ -540,5 +560,220 @@ padding-bottom: 2rem;
 .form-style {
 
 padding-top: 1rem;
+
+}
+
+/* Media Quries */
+
+/* About Page */
+
+@media (min-width: 402px){
+
+.card {
+
+box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
+
+}
+
+.card-text2
+{
+display: none;
+}
+
+.card-img {
+margin-left: 4.75rem; 
+border-radius: .2rem;
+background-color:#3C5738;
+margin-top: 0rem;
+width: 68%;
+
+}
+
+
+.card-left {
+
+margin-left: 4.75rem;
+border-radius: 0rem;
+width: 68%;
+}
+
+#Classes-bod {
+
+width: 22rem;
+margin-left: 5.5rem;
+width: 68%;
+}
+
+
+}
+
+
+
+@media (min-width: 552px){
+
+.card {
+
+box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
+
+}
+
+.card-text2
+{
+display: none;
+}
+
+.card-img {
+margin-left: 5.75rem; 
+border-radius: .2rem;
+background-color:#3C5738;
+margin-top: 0rem;
+width: 68%;
+}
+
+
+.card-left {
+
+margin-left: 5.75rem;
+border-radius: 0rem;
+width: 68%;
+}
+
+#Classes-bod {
+
+width: 22rem;
+margin-left: 6rem;
+}
+
+
+
+
+
+}
+
+@media (min-width: 574px){
+
+.card {
+
+box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
+
+}
+
+.card-text2
+{
+display: none;
+}
+
+.card-img {
+margin-left: 2rem; 
+border-radius: .2rem;
+background-color:#3C5738;
+margin-top: 5rem;
+
+}
+
+
+.card-left {
+
+margin-left: 2rem;
+border-radius: .2rem;
+
+}
+
+#Classes-bod {
+
+width: 26rem;
+margin-left: 4rem;
+}
+
+}
+
+
+
+
+@media (min-width: 768px){
+
+.card-text2
+{
+display: none;
+}
+
+.card-img {
+margin-left: 3.5rem; 
+border-radius: .2rem;
+background-color:#3C5738;
+margin-top: 0rem;
+}
+
+
+.card-left {
+
+margin-left: 2rem;
+border-radius: .2rem;
+
+}
+
+#Classes-bod {
+
+width: 30rem;
+margin-left: 8rem;
+}
+
+
+
+
+}
+
+@media (min-width: 992px) {
+
+.card-text2 {
+
+display: contents;
+}
+
+
+.card-img {
+margin-left: 3.5rem; 
+border-radius: .2rem;
+}
+
+
+.card-left {
+
+margin-left: 3.5rem;
+border-radius: .2rem;
+
+}
+
+#Classes-bod {
+
+width: 50rem;
+margin-left: 6rem;
+}
+
+
+    
+}
+
+@media (min-width: 1200px) {
+
+    
+.card-img {
+margin-left: 4.5rem; 
+border-radius: .2rem;
+}
+
+
+.card-left {
+
+margin-left: 4.5rem;
+border-radius: .2rem;
+
+}
+
+#Classes-bod {
+
+width: 56rem;
+margin-left: 9rem;
+}
 
 }
