@@ -232,9 +232,10 @@ padding-top: .5rem;
 .card-text {
 
 font-size: 1rem;
-text-align: center;
+text-align: justify;
 padding-left: 2rem;
 padding-right: 1rem;
+padding-top: 1rem;
 
 }
 
@@ -243,6 +244,7 @@ padding-right: 1rem;
 margin: 0 auto;
 border: 0;
 padding: 0;
+padding-top: 1rem;
 }
 
 .row-brk {
@@ -587,6 +589,7 @@ box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
 .card-text2
 {
 display: none;
+text-align: justify;
 }
 
 .card-img {
@@ -648,6 +651,7 @@ box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
 .card-text2
 {
 display: none;
+text-align: justify;
 }
 
 .card-img {
@@ -699,6 +703,7 @@ box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
 .card-text2
 {
 display: none;
+text-align: justify;
 }
 
 .card-img {
@@ -749,6 +754,7 @@ box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
 .card-text2
 {
 display: none;
+text-align: justify;
 }
 
 .card-img {
@@ -794,6 +800,7 @@ margin-left: 9.5rem;
 .card-text2
 {
 display: none;
+text-align: justify;
 }
 
 .card-img {
@@ -834,6 +841,7 @@ margin-left: .01rem;
 .card-text2 {
 
 display: contents;
+text-align: justify;
 }
 
 
@@ -946,3 +954,13 @@ title {
     margin-top: -2rem;
 
 }
+
+/* Classes Page */
+
+.call-to-action {
+
+padding-left: 2rem;
+padding-right: 2rem;
+font-weight: 600;
+font-size: 1.25rem;
+} 
