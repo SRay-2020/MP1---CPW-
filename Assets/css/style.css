@@ -69,6 +69,9 @@ margin: auto 10px;}
 {color:rgba(216, 169, 81);}
 
 
+
+
+
 /* Pages General */
 
 .page-background 
@@ -109,13 +112,21 @@ font-weight: 600;}
 .about-us-mid-size 
 {padding-left: 6.25rem;}
 
-.about-us {padding-left:0;}
+.about-us 
+{padding-left:0;}
 
-.ethos {padding-top: 2rem;}
+.ethos 
+{padding-top: 2rem;}
 
-.bg-color-contact {padding-top: 0rem;}
+.bg-color-contact 
+{padding-top: 0rem;}
 
-.bg-color-own {font-size: 5rem;}
+.bg-color-own 
+{font-size: 5rem;}
+
+.welcome-title
+{padding: 0 0;}
+
 
 /*-----Card Image Styles----*/
 
@@ -295,71 +306,37 @@ font-weight: 600;}
 .uppercase 
 {text-transform: uppercase;}
 
-
 /*-----Store Page styles-----*/
 
 .store-card 
 {--bs-gutter-x: 0;
 border-radius: 1.5rem;}
 
-
 .contact-style 
 {font-weight: 600;
 text-decoration: none;}
 
 
+.page-background 
+{background-color: #3C5738;}
 
-
-.page-background {
-
- background-color: #3C5738;
-
-}
-
-
-.welcome-title {
-
-padding: 0 0;
-
-
-
-}
-
-
-
-.store-row-style {
-
-padding-bottom: 2rem;
-
-}
-
-
+.store-row-style 
+{padding-bottom: 2rem;}
 
 /* Store row styles */
 
-
-
-.item-3 {
-padding-bottom: 0;
-}
+.item-3 
+{padding-bottom: 0;}
 
 /* Classes row styles */
 
-
-.class-style {
-
-padding-bottom: 2rem;
-
-
-}
+.class-style
+{padding-bottom: 2rem;}
 
 /* Contact Page */
 
-.form-style {
-
-padding-top: 1rem;
-
-}
+.form-style 
+{padding-top: 1rem;}
 
 /* Media Quries */
 
@@ -368,105 +345,64 @@ padding-top: 1rem;
 
 /* About Page */
 
-.card {
-
-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
-
-}
+.card 
+{box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);}
 
 .card-text2
-{
-display: none;
-text-align: justify;
-}
+{display: none;
+text-align: justify;}
 
-.shorten-text {
-
-display: none;
-
-}
+.shorten-text 
+{display: none;}
 
 .card-img {
 margin-left: 4.75rem; 
 border-radius: .2rem;
 background-color:#3C5738;
 margin-top: 0rem;
-width: 68%;
-
-}
+width: 68%;}
 
 
 .card-left {
-
 margin-left: 4.75rem;
 border-radius: 0rem;
-width: 68%;
-}
+width: 68%;}
 
 #Classes-bod {
-
 width: 22rem;
 margin-left: 5.5rem;
-width: 68%;
-}
+width: 68%;}
 
 /* Store Page */
 
-.card-button {
-
-margin-left: 4.5rem;
+.card-button 
+{margin-left: 4.5rem;
+}
 }
 
-
-
-}
-
-
-.card-text-class {
- 
-    
+.card-text-class {    
 font-size: 1rem;
 text-align: justify;
 padding-left: 1rem;
 padding-right: 1rem;
-padding-top: 1rem;
-
-
-
-}
-
-
-
-
-
-
-
-
-
+padding-top: 1rem;}
 
 @media (min-width: 402px){
 
 
 /* About Page */
 
-.card {
-
-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
-
-}
+.card 
+{box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0)}
 
 .card-text2
-{
-display: none;
+{display: none;
 text-align: justify;
 }
 
 
-.shorten-text {
-
-display: none;
-
-}
+.shorten-text 
+{display: none;}
 
 
 .card-img {
@@ -474,30 +410,24 @@ margin-left: 4.75rem;
 border-radius: .2rem;
 background-color:#3C5738;
 margin-top: 0rem;
-width: 68%;
-
-}
+width: 68%;}
 
 
-.card-left {
-
-margin-left: 4.75rem;
+.card-left 
+{margin-left: 4.75rem;
 border-radius: 0rem;
 width: 68%;
 }
 
-#Classes-bod {
-
-width: 22rem;
+#Classes-bod 
+{width: 22rem;
 margin-left: 5.5rem;
 width: 68%;
 }
 
 /* Store Page */
 
-.card-button {
-
-margin-left: 9.5rem;
+.card-button {margin-left: 9.5rem;
 justify-content: center;
 }
 
@@ -509,24 +439,16 @@ justify-content: center;
 
 /* About Page */    
 
-.card {
-
-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
-
-}
+.card {box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0)}
 
 
-.shorten-text {
-
-display: none;
-
-}
+.shorten-text 
+{display: none;}
 
 
 
 .card-text2
-{
-display: none;
+{display: none;
 text-align: justify;
 }
 
@@ -539,40 +461,29 @@ width: 68%;
 }
 
 
-.card-left {
-
-margin-left: 5.75rem;
+.card-left 
+{margin-left: 5.75rem;
 border-radius: 0rem;
 width: 68%;
 }
 
-#Classes-bod {
-
-width: 22rem;
+#Classes-bod 
+{width: 22rem;
 margin-left: 6rem;
 }
 
 /* Store Page */
 
-.card-button {
-
-margin-left: 10.5rem;
+.card-button 
+{margin-left: 10.5rem;
 }
-
-
-
 
 }
 
 @media (min-width: 574px){
-
-
 /* About Page */
-
 .card {
-
 box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.0);
-
 }
 
 .card-text2
@@ -586,15 +497,12 @@ margin-left: 2rem;
 border-radius: .2rem;
 background-color:#3C5738;
 margin-top: 5rem;
-
 }
 
 
 .card-left {
-
 margin-left: 2rem;
 border-radius: .2rem;
-
 }
 
 #Classes-bod {
@@ -602,25 +510,17 @@ border-radius: .2rem;
 width: 26rem;
 margin-left: 4rem;
 }
-
-
 /* Store Page */
 
 .card-button {
 
 margin-left: 9.5rem;
 }
-
 }
-
-
-
 
 @media (min-width: 768px){
 
 /* About Page */
-
-
 .card-text2
 {
 display: none;
@@ -634,12 +534,10 @@ background-color:#3C5738;
 margin-top: 0rem;
 }
 
-
 .card-left {
 
 margin-left: 2rem;
 border-radius: .2rem;
-
 }
 
 #Classes-bod {
@@ -648,7 +546,6 @@ width: 30rem;
 margin-left: 8rem;
 }
 
-
 /* Store Page */
 
 .card-button {
@@ -656,14 +553,11 @@ margin-left: 8rem;
 margin-left: .01rem;
 }
 
-
 }
 
 @media (min-width: 992px) {
 
 /* About Page */
-
-
 
 .shorten-text {
 
@@ -676,12 +570,10 @@ margin-left: 3.5rem;
 border-radius: .2rem;
 }
 
-
 .card-left {
 
 margin-left: 3.5rem;
 border-radius: .2rem;
-
 }
 
 #Classes-bod {
@@ -697,7 +589,6 @@ margin-left: 6rem;
 margin-left: 2.75rem;
 }
 
-    
 }
 
 @media (min-width: 1200px) {
@@ -715,10 +606,7 @@ display: block;
 padding-bottom: 1rem;
 }
 
-
-
 .card-left {
-
 margin-left: 4.5rem;
 border-radius: .2rem;
 
@@ -736,30 +624,9 @@ margin-left: 9rem;
 
 margin-left: 4.5rem;
 }
-
-/* Header Styles */
-}
-
-.header-links li a {
-color: rgb(255, 255, 255);
-background: #3C5738;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  border-radius: .5rem;
-}
-
-
-
-
-.header-links li a:hover {
-    color: #d4c473;
-  background:rgb(44, 63, 41);
 }
 
 /* Interactive Button Styles */
-
 
 .card-body a {
     text-decoration: none;
@@ -773,19 +640,14 @@ background: #54577C;
   border-radius: .5rem;
 }
 
-
-
-
 .card-body a:hover {
     color: #d4c473;
   background:rgb(59, 61, 87);
 }
 
-
 title {
 
     margin-top: -2rem;
-
 }
 
 /* Classes Page */
@@ -801,5 +663,4 @@ font-size: 1.25rem;
 .icon-style {
 
 font-size: 2.5rem;
-
 }
