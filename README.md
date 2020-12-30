@@ -39,7 +39,19 @@
 
 * **CREDITS** 
 
+* **CONTENT** 
+ 
+* **MEDIA** 
+
+* **ACKNOWLEDGEMENTS** 
+
 * **MOCKUPS** 
+
+
+
+
+
+
 
 ### **Strategy -**
 
@@ -155,6 +167,10 @@ straightforward store page which presents three items in a clear manner and enco
 **SKELETON** 
 
 Wireframes for Mobile and Desktop/Tablet  
+
+<img src="Assets/Readmeimages/mp1wireframe.pdf" width="50">
+<img src="Assets/Readmeimages/mp1mobwireframe.pdf" width="50">
+
 
 * Landing Page 
 
@@ -296,7 +312,7 @@ Chrome Lighthouse -
 
 Was used towards the latter half of the project to ensure that there were no outstanding issues with source code.  Below is the final report from Lighthouse.  There are and remain obvious issues with performance of website and further knowledge will need to be aquired before author can adequately make the changes needed to improve this (by creating responsively sized images) Unfortunately time and skills do not allow this at the current time and a decision was made to keep high quality images contained in project for main objectives. 
 
- 
+<img src="Assets/Readmeimages/Lighthouseimg.png" width="50"> 
 
 **Function tests** -  
 
@@ -419,11 +435,124 @@ At the beginning I struggled to create a collapsible hamburger menu that was inl
 
 An issue with the footer arose and I needed to revert to an older version and replace all code in Footer and then re-style for the HTML Validator to accept my code as being valid. This thankfully resolved the issue.  
 
-**DEPLOYMENT** 
+**BUG FIXS**
+To my knowledge there are currently no existing bugs in project.
 
+**DEPLOYMENT** 
+This project was developed in the Gitpod development environment. I initialised the project by creating a new repository for the project in GitHub and used this as a storing point to push the project to at various points through the development process. Using the git add function I staged my code at many times and used the Git Commit command to save all changes. Finally, I used the Git Push command to send all the changes back to my repository on GitHub.  
+
+Git Hub Pages -  
+
+After site was completed I deployed the website to GitHub Pages usuing the settings feature on my project repository, scrolling to GitHub pages, choosing master as source and then saving the new pages link.  
+
+Creating clone of project -  
+
+To create a clone of this project you can access it through the link onf Git Hub Repository, click the clipboard to copy the url, this can then be brought to the terminal when a new working directory can be set up and the clone saved. Once this is done you can type ‘git clone’ and paste the url and press enter and a new clone will be created.  
 
 
 **CREDITS** 
+Bootstrap Navbar with links – Bootstrap Docs 
 
+ (https://getbootstrap.com/docs/4.5/components/navbar/) 
+
+Bootstrap Carousel - Bootstrap Docs  
+
+(https://getbootstrap.com/docs/4.5/components/carousel/) 
+
+Card Creation – W3Schools  
+
+(https://www.w3schools.com/howto/howto_css_cards.asp) 
+
+Cards styles and images – Tutorial Republic  
+
+(https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-cards.php) 
+
+Hamburger fixes – Stack Overflow and Web Development Tutorials  
+
+(https://stackoverflow.com/questions/53901485/in-navbar-in-bootstrap-4-hamburger-menu-is-not-working) 
+
+(https://www.youtube.com/watch?v=LbYKqXBy2hI&t=303s) 
+
+Media Queries – CSS Tricks, W3Schools and Code Grepper  
+
+ (https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) 
+
+(https://www.w3schools.com/css/css_rwd_mediaqueries.asp) 
+
+(https://www.codegrepper.com/code-examples/delphi/bootstrap+hide+image+on+mobile) 
+
+Footer – Code Institute and Tutorials Points  
+
+(Practice project work) 
+
+(https://www.tutorialspoint.com/how-to-create-a-fixed-sticky-footer-with-css) 
+
+General -  
+
+Code Institute – course videos and instructive source code 
+
+Bootstrap Documentation 
+
+W3Schools 
+
+Github Guides 
+
+Sizing issues (EM vs REM vs PX) - Engage Interactive Blog  
+
+(https://engageinteractive.co.uk/blog/em-vs-rem-vs-px)  
+
+Cooler.com - Colour scheme generator 
+
+README.md - Next Day Video  
+
+(https://www.youtube.com/watch?v=2dAK42B7qtw/) 
+
+Unsplash .com for images  
+
+(https://unsplash.com/) 
+
+Web.dev - Information on issues arising from Lighthouse reports 
+
+(https://web.dev/uses-responsive-images/) 
+
+**CONTENT** 
+All text copy was written by author  
+**MEDIA** 
+All images not credited below belong to author 
+
+Credits given: 
+
+General :  
+
+Carousel 1 - Photo by Courtney Cook on Unsplash 
+
+Carousel 2  -  Photo by Courtney Cook on Unsplash 
+
+Carousel 3 - Photo by Courtney Cook on Unsplash 
+
+Landing Page : 
+
+About image - Photo by SwapnIl Dwivedi on Unsplash 
+
+Workshop image - Photo by Galeria Estação on Unsplash 
+
+Ethos image -  Photo by Markus Spiske on Unsplash 
+
+Classes Page : 
+
+Beginner class img - Photo by Hashem Rahmani on Unsplash 
+
+Intermediate class img - Photo by Andy Kelly on Unsplash 
+
+Pro class img - Photo by Tom Crew on Unsplash 
+
+**ACKNOWLEDGEMENTS** 
+Code institute  
+
+Mentor (Spencer Shelton) 
+
+Slack Community 
 
 **MOCKUPS** 
+
+<img src="Assets/Readmeimages/mockupfile.png" width="100">
