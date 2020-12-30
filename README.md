@@ -547,6 +547,7 @@ Intermediate class img - Photo by Andy Kelly on Unsplash
 Pro class img - Photo by Tom Crew on Unsplash 
 
 **ACKNOWLEDGEMENTS** 
+
 Code institute  
 
 Mentor (Spencer Shelton) 
